@@ -1,0 +1,50 @@
+{
+    "English-French" : {
+        "target" :  {
+            "name" : "English",
+            "epi" : "eng-Latn",
+            "gtrans" : "en",
+            "unicode" : "Latin"
+        },
+        "source" : {
+            "name" : "French",
+            "epi" : "fra-Latn",
+            "gtrans" : "fr",
+            "unicode" : "Latin"
+        },
+        "wiki" : "https://en.m.wiktionary.org/wiki/Category:English_terms_borrowed_from_French",
+        "loan-frac" : ".3"
+    },
+    "Chinese-English" : {
+        "target" :  {
+            "name" : "Chinese",
+            "epi" : "cmn-Hant",
+            "gtrans" : "zh-CN",
+            "unicode" : "Chinese"
+        },
+        "source" : {
+            "name" : "English",
+            "epi" : "eng-Latn",
+            "gtrans" : "en",
+            "unicode" : "Latin"
+        },
+        "wiki" : "https://en.m.wiktionary.org/wiki/Category:Chinese_terms_borrowed_from_English",
+        "loan-frac" : ".1"
+    },
+    "English-German" : {
+        "target" :  {
+            "name" : "English",
+            "epi" : "eng-Latn",
+            "gtrans" : "en",
+            "unicode" : "Latin"
+        },
+        "source" : {
+            "name" : "German",
+            "epi" : "deu-Latin",
+            "gtrans" : "de",
+            "unicode" : "Latin"
+        },
+        "wiki" : "https://en.m.wiktionary.org/wiki/Category:English_terms_borrowed_from_German",
+        "loan-frac" : ".1"
+    }
+}
