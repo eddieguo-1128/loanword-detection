@@ -10,3 +10,4 @@ The Alignment Network is a deep feedforward neural network that trains on a bina
 
 ## Classification Pipeline
 Ten features are used to classify whether a given pair of words in different languages are loanwords. Six distance features are generated using the PanPhon package after converting the words into IPA transcriptions; these include Fast Levenshtein Distance, Dolgo Prime Distance, Feature Edit Distance, Hamming Feature Distance, Weighted Feature Distance, and Partial Hamming Feature Distance. Plain Levenshtein distance represents textual similarity. Semantic similarity is measured by obtaining the cosine similarity between two words using multilingual language models MBERT and XLM. Finally, these features are combined with the logits returned by the Alignment Network and fed into a binary classifier to make the final prediction.
+![Alt text](https://github.com/eddieguo-1128/loanword-detection/blob/main/img/Overall%20Classification.png)
